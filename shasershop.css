@@ -1,0 +1,144 @@
+/* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header styles */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+/* Hero styles */
+#hero {
+	background-color: #f5f5f5;
+	padding: 50px;
+	text-align: center;
+}
+
+#hero h2 {
+	margin-top: 0;
+}
+
+#hero p {
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+#hero button {
+	background-color: #333;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Features styles */
+#features {
+	background-color: #fff;
+	padding: 50px;
+}
+
+#features h2 {
+	margin-top: 0;
+}
+
+#features li {
+	font-size: 20px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+/* Pricing styles */
+#pricing {
+	background-color: #f5f5f5;
+	padding: 50px;
+}
+
+#pricing h2 {
+	margin-top: 0;
+}
+
+table {
+	margin: 0 auto;
+}
+
+table th, table td {
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+
+/* Contact styles */
+#contact {
+	background-color: #fff;
+	padding: 50px;
+}
+
+#contact h2 {
+	margin-top: 0;
+}
+
+form label {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+	background-color: #333;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
